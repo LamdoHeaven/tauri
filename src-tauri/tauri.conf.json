@@ -19,7 +19,7 @@
     },
     "bundle": {
       "active": true,
-      "targets": ["deb"],
+      "targets": ["deb", "nsis", "msi", "app", "dmg", "updater"],
       "identifier": "meihuan.com.eew",
       "icon": [
         "icons/32x32.png",
