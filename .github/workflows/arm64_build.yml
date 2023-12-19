@@ -41,4 +41,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Debian Bundle
-          path: /tauri/src-tauri/target/release/bundle/deb/eew-desktop_0.0.0_arm64.deb
+          path:  ${{ github.workspace }}/src-tauri/target/release/bundle/deb/eew-desktop_0.0.0_arm64.deb
